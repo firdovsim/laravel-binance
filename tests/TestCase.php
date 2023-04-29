@@ -2,9 +2,9 @@
 
 namespace Binance\Binance\Tests;
 
+use Binance\Binance\BinanceServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Binance\Binance\BinanceServiceProvider;
 
 class TestCase extends Orchestra
 {

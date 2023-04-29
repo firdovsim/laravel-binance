@@ -2,9 +2,9 @@
 
 namespace Binance\Binance;
 
+use Binance\Binance\Commands\BinanceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Binance\Binance\Commands\BinanceCommand;
 
 class BinanceServiceProvider extends PackageServiceProvider
 {
